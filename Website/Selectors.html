@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Life">
+    <meta name="description" content="A beginners guide into coding websites!">
+    <title>Web Design | Welcome</title>
+    <link rel="stylesheet" href="dropdown.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" />
+</head>
+
+<body>
+
+    <header id="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="C:/Users/dodic/OneDrive/Documents/Website/Images/CODING.png" alt="Your Logo"></a>
+            </div>
+
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a id="drown-list" href="#">Guide</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Separation.html">Separation</a></li>
+                            <li><a href="Selectors.html">Selectors</a></li>
+                            <li><a href="Hierarchical.html">Hierarchical</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="About-Us.html">About Us</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-info-container">
+        <section class="main-info-section">
+            <h2>Mastering CSS Selectors!</h2>
+            <h3>Unlock the Potential of CSS Selectors for Elegant Styling</h3>
+            <p>CSS selectors are essential tools in web development, enabling precise targeting
+                and styling of HTML elements. From basic types to advanced patterns, understanding
+                CSS selectors is crucial for creating visually appealing and well-structured web
+                designs. This guide explores their syntax and applications for effective use in
+                crafting responsive user interfaces.</p>
+        </section>
+    </div>
+    
+    <div class="grey-divider">
+        <div class="greygif-space">
+            <!-- Your GIF content goes here -->
+            <img src="C:/Users/dodic/OneDrive/Documents/Website/Images/seperationpage-gif.gif" alt="Your GIF">
+        </div>
+    </div>
+
+    <div class="sidepages-background">
+        <div class="container">
+
+            <section class="three-box-section">
+                <h2>Type Selectors</h2>
+                <div class="box-container">
+                    <div class="box">
+                        <h3>Syntax</h3>
+                        <p>Element</p>
+                    </div>
+                    <div class="box">
+                        <h3>Use</h3>
+                        <p>Targets all instances of a specific HTML element
+                            (e.g., paragraphs, headings) for consistent styling.</p>
+                    </div>
+                    <div class="box image-box">
+                        <h3>Example:</h3>
+                        <img src="C:/Users/dodic/OneDrive/Documents/Website/Images/CSS-Selectors/1.jpg" alt="Image Description">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="sidepages-background">
+        <div class="container">
+
+            <section class="three-box-section">
+                <h2>Class Selectors</h2>
+                <div class="box-container">
+                    <div class="box">
+                        <h3>Syntax</h3>
+                        <p>.classname</p>
+                    </div>
+                    <div class="box">
+                        <h3>Use</h3>
+                        <p>Selects elements with a specific class
+                            attribute, enabling the application of
+                            shared styles to multiple elements.</p>
+                    </div>
+                    <div class="box image-box">
+                        <h3>Example:</h3>
+                        <img src="C:/Users/dodic/OneDrive/Documents/Website/Images/CSS-Selectors/2.jpg" alt="Image Description">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="sidepages-background">
+        <div class="container">
+
+            <section class="three-box-section">
+                <h2>ID Selectors</h2>
+                <div class="box-container">
+                    <div class="box">
+                        <h3>Syntax</h3>
+                        <p>#idname</p>
+                    </div>
+                    <div class="box">
+                        <h3>Use</h3>
+                        <p>Targets a specific element with a unique ID, applying styles to a single, distinctive element.</p>
+                    </div>
+                    <div class="box image-box">
+                        <h3>Example:</h3>
+                        <img src="C:/Users/dodic/OneDrive/Documents/Website/Images/CSS-Selectors/3.jpg" alt="Image Description">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="sidepages-background">
+        <div class="container">
+
+            <section class="three-box-section">
+                <h2>Descendant Selector</h2>
+                <div class="box-container">
+                    <div class="box">
+                        <h3>Syntax</h3>
+                        <p>ancestor descendant</p>
+                    </div>
+                    <div class="box">
+                        <h3>Use</h3>
+                        <p>Styles all descendant elements matching the
+                            second selector that are nested within the first selector.</p>
+                    </div>
+                    <div class="box image-box">
+                        <h3>Example:</h3>
+                        <img src="C:/Users/dodic/OneDrive/Documents/Website/Images/CSS-Selectors/4.jpg" alt="Image Description">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="sidepages-background">
+        <div class="container">
+
+            <section class="three-box-section">
+                <h2>Child Selector</h2>
+                <div class="box-container">
+                    <div class="box">
+                        <h3>Syntax</h3>
+                        <p>parent > child</p>
+                    </div>
+                    <div class="box">
+                        <h3>Use</h3>
+                        <p>Targets direct children of a parent element, useful for styling
+                            specific levels of a hierarchy.</p>
+                    </div>
+                    <div class="box image-box">
+                        <h3>Example:</h3>
+                        <img src="C:/Users/dodic/OneDrive/Documents/Website/Images/CSS-Selectors/5.jpg" alt="Image Description">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="sidepages-background">
+        <div class="container">
+
+            <section class="three-box-section">
+                <h2>Adjacent Sibling Selector</h2>
+                <div class="box-container">
+                    <div class="box">
+                        <h3>Syntax</h3>
+                        <p>element + adjacent</p>
+                    </div>
+                    <div class="box">
+                        <h3>Use</h3>
+                        <p>Styles an element that is immediately preceded by a specified sibling.</p>
+                    </div>
+                    <div class="box image-box">
+                        <h3>Example:</h3>
+                        <img src="C:/Users/dodic/OneDrive/Documents/Website/Images/CSS-Selectors/6.jpg" alt="Image Description">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="sidepages-background">
+        <div class="container">
+
+            <section class="three-box-section">
+                <h2>General Sibling Selector</h2>
+                <div class="box-container">
+                    <div class="box">
+                        <h3>Syntax</h3>
+                        <p>element ~ sibling</p>
+                    </div>
+                    <div class="box">
+                        <h3>Use</h3>
+                        <p>Styles all siblings following a specified element.</p>
+                    </div>
+                    <div class="box image-box">
+                        <h3>Example:</h3>
+                        <img src="C:/Users/dodic/OneDrive/Documents/Website/Images/CSS-Selectors/7.jpg" alt="Image Description">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="sidepages-background">
+        <div class="container">
+
+            <section class="three-box-section">
+                <h2>Attribute Selectors</h2>
+                <div class="box-container">
+                    <div class="box">
+                        <h3>Syntax</h3>
+                        <p>[attribute=value]</p>
+                    </div>
+                    <div class="box">
+                        <h3>Use</h3>
+                        <p>Selects elements based on the presence or value of their attributes.</p>
+                    </div>
+                    <div class="box image-box">
+                        <h3>Example:</h3>
+                        <img src="C:/Users/dodic/OneDrive/Documents/Website/Images/CSS-Selectors/8.jpg" alt="Image Description">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="sidepages-background">
+        <div class="container">
+
+            <section class="three-box-section">
+                <h2>Pseudo-Classes</h2>
+                <div class="box-container">
+                    <div class="box">
+                        <h3>Syntax</h3>
+                        <p>:pseudo-class</p>
+                    </div>
+                    <div class="box">
+                        <h3>Use</h3>
+                        <p>Styles elements based on their state (e.g., :hover, :active, :focus). </p>
+                    </div>
+                    <div class="box image-box">
+                        <h3>Example:</h3>
+                        <img src="C:/Users/dodic/OneDrive/Documents/Website/Images/CSS-Selectors/9.jpg" alt="Image Description">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="sidepages-background">
+        <div class="container">
+
+            <section class="three-box-section">
+                <h2>Pseudo-Elements</h2>
+                <div class="box-container">
+                    <div class="box">
+                        <h3>Syntax</h3>
+                        <p>::pseudo-element</p>
+                    </div>
+                    <div class="box">
+                        <h3>Use</h3>
+                        <p>Styles specific parts of an element (e.g., ::before, ::after, ::first-line).</p>
+                    </div>
+                    <div class="box image-box">
+                        <h3>Example:</h3>
+                        <img src="C:/Users/dodic/OneDrive/Documents/Website/Images/CSS-Selectors/10.jpg" alt="Image Description">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="sidepages-background">
+        <div class="container">
+
+            <section class="three-box-section">
+                <h2>Grouping Selectors</h2>
+                <div class="box-container">
+                    <div class="box">
+                        <h3>Syntax</h3>
+                        <p>selector1, selector2, selector3 { }</p>
+                    </div>
+                    <div class="box">
+                        <h3>Use</h3>
+                        <p>Allows styling to be applied to multiple selectors with the same rule.</p>
+                    </div>
+                    <div class="box image-box">
+                        <h3>Example:</h3>
+                        <img src="C:/Users/dodic/OneDrive/Documents/Website/Images/CSS-Selectors/11.jpg" alt="Image Description">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="sidepages-background">
+        <div class="container">
+
+            <section class="three-box-section">
+                <h2>Negation Selector</h2>
+                <div class="box-container">
+                    <div class="box">
+                        <h3>Syntax</h3>
+                        <p>:not(selector)</p>
+                    </div>
+                    <div class="box">
+                        <h3>Use</h3>
+                        <p>Excludes elements from the selection based on a specified condition.</p>
+                    </div>
+                    <div class="box image-box">
+                        <h3>Example:</h3>
+                        <img src="C:/Users/dodic/OneDrive/Documents/Website/Images/CSS-Selectors/12.jpg" alt="Image Description">
+                    </div>
+                </div>
+            </section>
+
+            <section class="wide-text-section">
+                <div class="container">
+                    <h2>Selectors: Web Design Power Unleashed?</h2>
+                    <p>Understanding these selectors empowers developers to create versatile and targeted
+                        styles, making it possible to achieve the desired look and feel across different
+                        sections of a web page. Combining these selectors strategically enables the creation
+                        of efficient, maintainable, and responsive stylesheets.</p>
+
+                    <audio controls>
+                        <source src="C:/Users/dodic/OneDrive/Documents/Website/Audio/Selectors.mp3">
+                    </audio>
+                </div>
+            </section>
+
+        </div>
+
+    </div>
+
+    <section class="join-email-section">
+        <div class="container">
+            <div class="text-content">
+                <h2>Join Our Email List</h2>
+                <p>Subscribe to receive news updates about <strong>HTML & CSS</strong> straight to your inbox!</p>
+            </div>
+            <div class="form-content">
+                <form action="#" method="post">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Guide</a>
+                    <ul>
+                        <li><a href="Separation.html">Separation</a></li>
+                        <li><a href="Selectors.html">Selectors</a></li>
+                        <li><a href="Hierarchical.html">Hierarchical</a></li>
+                    </ul>
+                </li>
+                <li><a href="About-Us.html">About Us</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="social-media">
+            <a href="#" target="_blank"><img src="C:/Users/dodic/OneDrive/Documents/Website/Images/Social-Media-Icons/instagram-icon.png" alt="Instagram"></a>
+            <a href="#" target="_blank"><img src="C:/Users/dodic/OneDrive/Documents/Website/Images/Social-Media-Icons/facebook-icon.png" alt="Facebook"></a>
+            <a href="#" target="_blank"><img src="C:/Users/dodic/OneDrive/Documents/Website/Images/Social-Media-Icons/discord-icon.png" alt="Discord"></a>
+        </div>
+        <div class="copyright-info">
+            <p>&copy; 2023 David's HTML Lessons. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
